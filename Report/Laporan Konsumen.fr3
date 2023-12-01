@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.12.6" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="45260,842436956" ReportOptions.Description.Text="" ReportOptions.LastChange="45261,7168105671" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C65667403A80203546F7003D00008446174617365747301010C3100000020446174615365743D22667278646264747374312220446174615365744E616D653D2266727844424461746173657431220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="215,9" PaperHeight="279,4" PaperSize="1" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" Height="75,5906" Left="0" Top="18,89765" Width="740,409927">
+      <TfrxMemoView Name="Memo1" Left="192,75603" Top="11,33859" Width="317,48052" Height="37,7953" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-35" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="Laporan Konsumen"/>
+    </TfrxReportTitle>
+    <TfrxMasterData Name="MasterData1" Height="52,91342" Left="0" Top="257,00804" Width="740,409927" ColumnWidth="0" ColumnGap="0" DataSet="frxdbdtst1" DataSetName="frxDBDataset1" RowCount="0">
+      <TfrxMemoView Name="frxDBDataset1id_konsumen" Left="7,55906" Top="18,89765" Width="79,37013" Height="18,89765" ShowHint="False" DataField="id_konsumen" DataSet="frxdbdtst1" DataSetName="frxDBDataset1" Text="[frxDBDataset1.&#34;id_konsumen&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset1alamat" Left="393,07112" Top="18,89765" Width="400,63018" Height="18,89765" ShowHint="False" DataField="alamat" DataSet="frxdbdtst1" DataSetName="frxDBDataset1" Text="[frxDBDataset1.&#34;alamat&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset1telepon" Left="566,9295" Top="18,89765" Width="120,94496" Height="18,89765" ShowHint="False" DataField="telepon" DataSet="frxdbdtst1" DataSetName="frxDBDataset1" Text="[frxDBDataset1.&#34;telepon&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset1nama_perusahaan" Left="90,70872" Top="18,89765" Width="158,74026" Height="18,89765" ShowHint="False" DataField="nama_perusahaan" DataSet="frxdbdtst1" DataSetName="frxDBDataset1" Text="[frxDBDataset1.&#34;nama_perusahaan&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset1nama_pemilik" Left="268,34663" Top="18,89765" Width="158,74026" Height="18,89765" ShowHint="False" DataField="nama_pemilik" DataSet="frxdbdtst1" DataSetName="frxDBDataset1" Text="[frxDBDataset1.&#34;nama_pemilik&#34;]"/>
+    </TfrxMasterData>
+    <TfrxPageHeader Name="PageHeader1" Height="79,37013" Left="0" Top="117,16543" Width="740,409927">
+      <TfrxMemoView Name="Memo2" Left="7,55906" Top="26,45671" Width="94,48825" Height="18,89765" ShowHint="False" Text="ID"/>
+      <TfrxMemoView Name="Memo3" Left="94,48825" Top="26,45671" Width="94,48825" Height="18,89765" ShowHint="False" Text="nama_perusahaan"/>
+      <TfrxMemoView Name="Memo4" Left="268,34663" Top="26,45671" Width="94,48825" Height="18,89765" ShowHint="False" Text="Nama"/>
+      <TfrxMemoView Name="Memo5" Left="393,07112" Top="26,45671" Width="94,48825" Height="18,89765" ShowHint="False" Text="Alamat"/>
+      <TfrxMemoView Name="Memo6" Left="563,14997" Top="26,45671" Width="94,48825" Height="18,89765" ShowHint="False" Text="No Telp"/>
+    </TfrxPageHeader>
+  </TfrxReportPage>
+</TfrxReport>

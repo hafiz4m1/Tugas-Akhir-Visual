@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.12.6" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="45260,6017516088" ReportOptions.Description.Text="" ReportOptions.LastChange="45261,7172378472" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C65667403A00203546F7003D80008446174617365747301010C3100000020446174615365743D22667278646264747374312220446174615365744E616D653D2266727844424461746173657431220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="215,9" PaperHeight="279,4" PaperSize="1" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" Height="98,26778" Left="0" Top="18,89765" Width="740,409927">
+      <TfrxMemoView Name="Memo1" Left="162,51979" Top="18,89765" Width="423,30736" Height="34,01577" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-27" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="DAFTAR BARANG - ALAT BERAT"/>
+    </TfrxReportTitle>
+    <TfrxPageHeader Name="PageHeader1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Height="30,23624" Left="0" ParentFont="False" Top="139,84261" Width="740,409927">
+      <TfrxMemoView Name="Memo2" Left="3,77953" Top="7,55906" Width="105,82684" Height="18,89765" ShowHint="False" Text="Kode Sparepart"/>
+      <TfrxMemoView Name="Memo3" Left="166,29932" Top="7,55906" Width="102,04731" Height="18,89765" ShowHint="False" Text="Nama Sparepart"/>
+      <TfrxMemoView Name="Memo4" Left="328,81911" Top="7,55906" Width="94,48825" Height="18,89765" ShowHint="False" Text="Spesifikasi"/>
+      <TfrxMemoView Name="Memo5" Left="491,3389" Top="7,55906" Width="94,48825" Height="18,89765" ShowHint="False" Text="Harga Satuan"/>
+      <TfrxMemoView Name="Memo6" Left="638,74057" Top="7,55906" Width="94,48825" Height="18,89765" ShowHint="False" Text="Stock"/>
+    </TfrxPageHeader>
+    <TfrxMasterData Name="MasterData1" Height="22,67718" Left="0" Top="230,55133" Width="740,409927" ColumnWidth="0" ColumnGap="0" DataSet="frxdbdtst1" DataSetName="frxDBDataset1" RowCount="0">
+      <TfrxMemoView Name="frxDBDataset1kode_sparepart" Left="3,77953" Top="3,77953" Width="158,74026" Height="18,89765" ShowHint="False" DataField="kode_sparepart" DataSet="frxdbdtst1" DataSetName="frxDBDataset1" Text="[frxDBDataset1.&#34;kode_sparepart&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset1nama_sparepart" Left="166,29932" Top="3,77953" Width="158,74026" Height="18,89765" ShowHint="False" DataField="nama_sparepart" DataSet="frxdbdtst1" DataSetName="frxDBDataset1" Text="[frxDBDataset1.&#34;nama_sparepart&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset1spesifikasi" Left="328,81911" Top="3,77953" Width="400,63018" Height="18,89765" ShowHint="False" DataField="spesifikasi" DataSet="frxdbdtst1" DataSetName="frxDBDataset1" Text="[frxDBDataset1.&#34;spesifikasi&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset1harga_satuan" Left="491,3389" Top="3,77953" Width="79,37013" Height="18,89765" ShowHint="False" DataField="harga_satuan" DataSet="frxdbdtst1" DataSetName="frxDBDataset1" Text="[frxDBDataset1.&#34;harga_satuan&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset1stock" Left="638,74057" Top="3,77953" Width="79,37013" Height="18,89765" ShowHint="False" DataField="stock" DataSet="frxdbdtst1" DataSetName="frxDBDataset1" Text="[frxDBDataset1.&#34;stock&#34;]"/>
+    </TfrxMasterData>
+  </TfrxReportPage>
+</TfrxReport>
